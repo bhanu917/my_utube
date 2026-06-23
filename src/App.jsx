@@ -6,7 +6,7 @@ import { Navbar, ChannelDetail, Feed, SearchFeed, VideoDetail } from "./componen
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/my_utube/">
             <Box sx={{ backgroundColor: "#000" }}>
                 <Navbar />
                 <Routes>
